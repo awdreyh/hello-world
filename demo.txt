@@ -1,0 +1,6 @@
+{
+        "name": "Account1gfrdgdfgsfdg",
+        "marketValue": "10990",
+        "cash": "199926",
+        "legend": "orange"
+    }
