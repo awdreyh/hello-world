@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>ASB Customer Portal      </title>
+
+    <!-- Bootstrap -->
+    <link href="css/bootstrap-4.2.1.css" rel="stylesheet">
+
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+       <a class="navbar-brand" href="#">ASB Customer Portal</a>
+       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">       
+       </button>
+      
+    </nav>
+
+    <div class="jumbotron text-center"> 
+        <div class="container">
+     
+       <form class="form-inline">
+  
+  <div class="form-group mx-sm-3 mb-2">
+    <input type="password" class="form-control" id="searchCustomer" placeholder="Customer Name">
+  </div>
+  <button type="submit" class="btn btn-primary">Search</button>
+</form>
+    </div></div>
+	  <main id="customerList">
+	    <div class="container accordion" id="accordionCustomerPortal">
+            <table class="table" >
+  <thead class="thead-dark">
+    <tr>
+      <th scope="col">#</th>
+      <th scope="col">First Name</th>
+      <th scope="col">Last Name</th>
+      <th scope="col">Address</th>
+      <th scope="col">Phone </th>
+      <th scope="col">&nbsp;</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th scope="row">1</th>
+      <td>Mark</td>
+      <td>Otto</td>
+      <td>@mdo</td>
+      <td>&nbsp;</td>
+      <td><button type="button" class="btn btn-info btn-sm"  data-toggle="collapse" data-target="#customerOne" aria-expanded="true" aria-controls="customerOne">View  </button></td>
+    </tr>
+    
+    <tr>
+      <th scope="row">2</th>
+      <td>Jacob</td>
+      <td>Thornton</td>
+      <td>@fat</td>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+    </tr>
+    <tr>
+      <th scope="row">3</th>
+      <td>Larry</td>
+      <td> Bird</td>
+      <td>@twitter</td>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+    </tr>
+  </tbody>
+</table></div></main>
+    <div class="container"><br>
+      <div class="row">
+         <div class="text-center col-lg-6 offset-lg-3">
+             <h4> </h4>
+             <p>Copyright &copy; 2019 &middot; All Rights Reserved &middot; <a href="#" >My Website</a></p>
+          </div>
+       </div>
+    </div>
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) --> 
+    <script src="js/jquery-3.3.1.min.js"></script>
+
+    <!-- Include all compiled plugins (below), or include individual files as needed --> 
+    <script src="js/popper.min.js"></script>
+  <script src="js/bootstrap-4.2.1.js"></script>
+      <script src="js/customer.js"></script>
+  </body>
+</html>
